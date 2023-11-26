@@ -2,8 +2,72 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: happy path greeting
   steps:
   - intent: greet
   - action: utter_greet
 
+- story: user wants to play music
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: play_music
+  - action: action_play_music
+
+- story: user wants to play a specific song
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: play_specific_song
+  - action: action_play_specific_song
+
+- story: user wants to play music by a specific artist
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: play_specific_artist
+  - action: action_play_specific_artist
+
+- story: user pauses and resumes music
+  steps:
+  - intent: play_music
+  - action: action_play_music
+  - intent: pause_music
+  - action: action_pause_music
+  - intent: resume_music
+  - action: action_resume_music
+
+- story: user adjusts volume
+  steps:
+  - intent: play_music
+  - action: action_play_music
+  - intent: adjust_volume
+  - action: action_adjust_volume
+
+- story: user skips and goes back a track
+  steps:
+  - intent: play_music
+  - action: action_play_music
+  - intent: skip_track
+  - action: action_skip_track
+  - intent: previous_track
+  - action: action_previous_track
+
+- story: user seeks within a track
+  steps:
+  - intent: play_music
+  - action: action_play_music
+  - intent: seek_track
+  - action: action_seek_track
+
+- story: user says goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: out of scope query
+  steps:
+  - intent: out_of_scope
+  - action: action_gpt_fallback

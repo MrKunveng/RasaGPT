@@ -17,9 +17,91 @@ nlu:
     - goodevening
     - good afternoon
 
+- intent: play_music
+  examples: |
+    - play some music
+    - start playing
+    - play a song
+    - can you play music?
+    - I want to listen to music
+
+- intent: play_specific_song
+  examples: |
+    - play Bohemian Rhapsody
+    - start playing Hotel California
+    - can you play Shape of You?
+    - I want to listen to Purple Rain
+    - play the song Yesterday
+
+- intent: play_specific_artist
+  examples: |
+    - play songs by The Beatles
+    - I want to hear Taylor Swift
+    - play Ed Sheeran's music
+    - Can you play some tracks by Adele?
+    - I'd like to listen to music by Drake
+
+- intent: pause_music
+  examples: |
+    - pause the music
+    - can you stop for a moment?
+    - pause the song
+    - hold the music please
+    - stop playing now
+
+- intent: resume_music
+  examples: |
+    - resume playing
+    - continue the music
+    - start the song again
+    - keep playing
+    - resume the track
+
+- intent: skip_track
+  examples: |
+    - skip this song
+    - next track please
+    - I don't like this song, skip it
+    - go to the next song
+    - skip to the next track
+
+- intent: previous_track
+  examples: |
+    - play the previous song
+    - go back one track
+    - I want to hear the last song again
+    - previous track please
+    - replay the previous song
+
+- intent: adjust_volume
+  examples: |
+    - turn up the volume
+    - lower the volume please
+    - increase the sound
+    - make it louder
+    - I need a quieter volume
+
+- intent: seek_track
+  examples: |
+    - go to the middle of the song
+    - skip to two minutes in
+    - rewind a little
+    - fast forward the track
+    - jump to the chorus
+
 - intent: out_of_scope
   examples: |
     - I want to order food
     - What is 2 + 2?
     - Who's the US President?
 
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - catch you later
+    - talk to you later
+    - I'm off
+    - I have to go
+    - it was nice talking to you

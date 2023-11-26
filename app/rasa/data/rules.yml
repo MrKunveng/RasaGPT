@@ -2,7 +2,62 @@ version: "3.1"
 
 rules:
 
-- rule: out-of-scope
+- rule: Greet User
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Play Music
+  steps:
+  - intent: play_music
+  - action: action_play_music
+
+- rule: Play Specific Song
+  steps:
+  - intent: play_specific_song
+  - action: action_play_specific_song
+
+- rule: Play Specific Artist
+  steps:
+  - intent: play_specific_artist
+  - action: action_play_specific_artist
+
+- rule: Pause Music
+  steps:
+  - intent: pause_music
+  - action: action_pause_music
+
+- rule: Resume Music
+  steps:
+  - intent: resume_music
+  - action: action_resume_music
+
+- rule: Skip Track
+  steps:
+  - intent: skip_track
+  - action: action_skip_track
+
+- rule: Previous Track
+  steps:
+  - intent: previous_track
+  - action: action_previous_track
+
+- rule: Adjust Volume
+  steps:
+  - intent: adjust_volume
+  - action: action_adjust_volume
+
+- rule: Seek in Track
+  steps:
+  - intent: seek_track
+  - action: action_seek_track
+
+- rule: Out of Scope
   steps:
   - intent: out_of_scope
   - action: action_gpt_fallback
+
+- rule: Say Goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
