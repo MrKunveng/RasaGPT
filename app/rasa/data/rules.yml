@@ -7,50 +7,50 @@ rules:
   - intent: greet
   - action: utter_greet
 
-- rule: Play Music
+- rule: Play Video
   steps:
-  - intent: play_music
-  - action: action_play_music
+  - intent: play_video
+  - action: action_play_video
 
-- rule: Play Specific Song
+- rule: Play Specific Video
   steps:
-  - intent: play_specific_song
-  - action: action_play_specific_song
+  - intent: play_specific_video
+  - action: action_play_specific_video
 
-- rule: Play Specific Artist
+- rule: Play Videos by Specific Artist
   steps:
-  - intent: play_specific_artist
-  - action: action_play_specific_artist
+  - intent: play_videos_by_specific_people
+  - action: action_play_videos_by_specific_artist
 
-- rule: Pause Music
+- rule: Pause Video
   steps:
-  - intent: pause_music
-  - action: action_pause_music
+  - intent: pause_video
+  - action: action_pause_video
 
-- rule: Resume Music
+- rule: Resume Video
   steps:
-  - intent: resume_music
-  - action: action_resume_music
+  - intent: resume_video
+  - action: action_resume_video
 
-- rule: Skip Track
+- rule: Skip Video
   steps:
-  - intent: skip_track
-  - action: action_skip_track
+  - intent: skip_video
+  - action: action_skip_video
 
-- rule: Previous Track
+- rule: Previous Video
   steps:
-  - intent: previous_track
-  - action: action_previous_track
+  - intent: previous_video
+  - action: action_previous_video
 
-- rule: Adjust Volume
+- rule: Adjust Volume of Video
   steps:
-  - intent: adjust_volume
-  - action: action_adjust_volume
+  - intent: adjust_volume_video
+  - action: action_adjust_volume_video
 
-- rule: Seek in Track
+- rule: Seek in Video
   steps:
-  - intent: seek_track
-  - action: action_seek_track
+  - intent: seek_video
+  - action: action_seek_video
 
 - rule: Out of Scope
   steps:

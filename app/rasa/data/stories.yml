@@ -7,58 +7,58 @@ stories:
   - intent: greet
   - action: utter_greet
 
-- story: user wants to play music
+- story: user wants to play a video
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: play_music
-  - action: action_play_music
+  - intent: play_video
+  - action: action_play_video
 
-- story: user wants to play a specific song
+- story: user wants to play a specific video
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: play_specific_song
-  - action: action_play_specific_song
+  - intent: play_specific_video
+  - action: action_play_specific_video
 
-- story: user wants to play music by a specific artist
+- story: user wants to play videos by a specific people
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: play_specific_artist
-  - action: action_play_specific_artist
+  - intent: play_videos_by_specific_artist
+  - action: action_play_videos_by_specific_artist
 
-- story: user pauses and resumes music
+- story: user pauses and resumes video
   steps:
-  - intent: play_music
-  - action: action_play_music
-  - intent: pause_music
-  - action: action_pause_music
-  - intent: resume_music
-  - action: action_resume_music
+  - intent: play_video
+  - action: action_play_video
+  - intent: pause_video
+  - action: action_pause_video
+  - intent: resume_video
+  - action: action_resume_video
 
-- story: user adjusts volume
+- story: user adjusts volume of video
   steps:
-  - intent: play_music
-  - action: action_play_music
-  - intent: adjust_volume
-  - action: action_adjust_volume
+  - intent: play_video
+  - action: action_play_video
+  - intent: adjust_volume_video
+  - action: action_adjust_volume_video
 
-- story: user skips and goes back a track
+- story: user skips and goes back a video
   steps:
-  - intent: play_music
-  - action: action_play_music
-  - intent: skip_track
-  - action: action_skip_track
-  - intent: previous_track
-  - action: action_previous_track
+  - intent: play_video
+  - action: action_play_video
+  - intent: skip_video
+  - action: action_skip_video
+  - intent: previous_video
+  - action: action_previous_video
 
-- story: user seeks within a track
+- story: user seeks within a video
   steps:
-  - intent: play_music
-  - action: action_play_music
-  - intent: seek_track
-  - action: action_seek_track
+  - intent: play_video
+  - action: action_play_video
+  - intent: seek_video
+  - action: action_seek_video
 
 - story: user says goodbye
   steps:

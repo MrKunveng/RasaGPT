@@ -17,77 +17,77 @@ nlu:
     - goodevening
     - good afternoon
 
-- intent: play_music
+- intent: play_video
   examples: |
-    - play some music
-    - start playing
-    - play a song
-    - can you play music?
-    - I want to listen to music
+    - play some videos
+    - start playing a video
+    - play a video
+    - can you play a video?
+    - I want to watch a video
 
-- intent: play_specific_song
+- intent: play_specific_video
   examples: |
-    - play Bohemian Rhapsody
-    - start playing Hotel California
-    - can you play Shape of You?
-    - I want to listen to Purple Rain
-    - play the song Yesterday
+    - play the video of Bohemian Rhapsody
+    - start playing the video of Hotel California
+    - can you play the video of Shape of You?
+    - I want to watch the video of Purple Rain
+    - play the video Yesterday
 
-- intent: play_specific_artist
+- intent: play_videos_by_specific_people
   examples: |
-    - play songs by The Beatles
-    - I want to hear Taylor Swift
-    - play Ed Sheeran's music
-    - Can you play some tracks by Adele?
-    - I'd like to listen to music by Drake
+    - play videos by The Beatles
+    - I want to watch videos by Taylor Swift
+    - play Ed Sheeran's videos
+    - Can you play some videos by Adele?
+    - I'd like to watch videos by Drake
 
-- intent: pause_music
+- intent: pause_video
   examples: |
-    - pause the music
-    - can you stop for a moment?
-    - pause the song
-    - hold the music please
-    - stop playing now
+    - pause the video
+    - can you stop the video for a moment?
+    - pause the video playing
+    - hold the video please
+    - stop playing the video now
 
-- intent: resume_music
+- intent: resume_video
   examples: |
-    - resume playing
-    - continue the music
-    - start the song again
-    - keep playing
-    - resume the track
+    - resume playing the video
+    - continue the video
+    - start the video again
+    - keep playing the video
+    - resume the video
 
-- intent: skip_track
+- intent: skip_video
   examples: |
-    - skip this song
-    - next track please
-    - I don't like this song, skip it
-    - go to the next song
-    - skip to the next track
+    - skip this video
+    - next video please
+    - I don't like this video, skip it
+    - go to the next video
+    - skip to the next video
 
-- intent: previous_track
+- intent: previous_video
   examples: |
-    - play the previous song
-    - go back one track
-    - I want to hear the last song again
-    - previous track please
-    - replay the previous song
+    - play the previous video
+    - go back one video
+    - I want to watch the last video again
+    - previous video please
+    - replay the previous video
 
-- intent: adjust_volume
+- intent: adjust_volume_video
   examples: |
-    - turn up the volume
-    - lower the volume please
-    - increase the sound
-    - make it louder
-    - I need a quieter volume
+    - turn up the volume on the video
+    - lower the video volume please
+    - increase the volume of the video
+    - make the video louder
+    - I need a quieter volume for the video
 
-- intent: seek_track
+- intent: seek_video
   examples: |
-    - go to the middle of the song
-    - skip to two minutes in
-    - rewind a little
-    - fast forward the track
-    - jump to the chorus
+    - go to the middle of the video
+    - skip to two minutes in the video
+    - rewind the video a little
+    - fast forward the video
+    - jump to the best part of the video
 
 - intent: out_of_scope
   examples: |
